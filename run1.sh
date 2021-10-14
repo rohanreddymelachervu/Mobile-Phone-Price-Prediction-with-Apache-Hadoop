@@ -1,0 +1,1 @@
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.3.0.jar -file /home/hduser/Desktop/Project/mapperp.py -mapper /home/hduser/Desktop/Project/mapperp.py -file /home/hduser/Desktop/Project/reducerp.py -reducer /home/hduser/Desktop/Project/reducerp.py -input /project/input/phone.csv -output /project/output
